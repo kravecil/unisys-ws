@@ -1,0 +1,21 @@
+{
+    "autorun": true,
+    "terminals": [
+      {
+        "name": "GIT",
+        "description": "",
+        "focus": false,
+        "command": ""
+      },
+      {
+        "name": "VAGRANT",
+        "description": "",
+        "focus": true,
+        "commands": [
+          "cd ~/Homestead",
+          "vagrant ssh",
+          "cd /home/vagrant/unisys/unisys-ws"
+        ]
+        }
+    ]
+}
